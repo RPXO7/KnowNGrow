@@ -25,7 +25,7 @@ export default function Sidebar() {
     <div className="fixed inset-y-0 left-0 w-[14%] flex flex-col z-50">
       <div className="flex flex-col flex-grow bg-white dark:bg-gray-950 border-r border-gray-200 dark:border-gray-800">
         <div className="flex items-center h-16 flex-shrink-0 px-4 bg-primary">
-          <Link to="/" className="flex items-center space-x-2">
+          <Link to="/" className="flex items-center space-x-2 w-full justify-center">
             <Leaf className="h-8 w-8 text-white" />
             <span className="text-xl font-bold text-white">KnowNGrow</span>
           </Link>

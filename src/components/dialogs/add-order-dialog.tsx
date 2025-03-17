@@ -167,7 +167,7 @@ export function AddOrderDialog({ open, onOpenChange }: AddOrderDialogProps) {
     } catch (error) {
       toast({
         title: "Error",
-        description: "Failed to add product. Please try again.",
+        description: "Failed to add Order. Please try again.",
         variant: "destructive",
       });
     }
